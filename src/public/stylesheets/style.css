@@ -1,0 +1,39 @@
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+#somatoChart {
+  display: flex;
+  width: 100%;
+}
+
+#panel {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0 0 1rem;
+}
+
+label {
+  margin-top: 0.5rem;
+}
+
+input {
+  width: 10rem;
+  height: 1.5rem;
+}
+
+button {
+  margin-top: 0.5rem;
+}
+
+select {
+  margin-top: 0.5rem;
+}

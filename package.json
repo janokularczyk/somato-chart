@@ -1,0 +1,17 @@
+{
+  "name": "chart-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "devStart": "nodemon src/index.js"
+  },
+  "author": "janokularczyk",
+  "dependencies": {
+    "express": "^4.19.2",
+    "highcharts": "^11.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
