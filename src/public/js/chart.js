@@ -12,7 +12,7 @@ export var chart = Highcharts.chart("somatoChart", {
   chart: {
     type: "scatter",
     renderTo: "somatoChart",
-    plotBackgroundImage: "/images/chart.svg",
+    plotBackgroundImage: "/img/chart.svg",
   },
   title: {
     text: `${title}`,
