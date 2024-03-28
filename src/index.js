@@ -1,8 +1,8 @@
 const express = require("express");
 const { join } = require("node:path");
 
-const app = express();
 const PORT = 8080;
+const app = express();
 
 app.use(express.static(join(__dirname, "public")));
 

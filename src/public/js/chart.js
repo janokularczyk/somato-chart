@@ -1,5 +1,5 @@
-// var Highcharts = require('highcharts');
-// require("highcharts/modules/accessibility")(Highcharts);
+var Highcharts = require('highcharts');
+require("highcharts/modules/accessibility")(Highcharts);
 // require("highcharts/modules/exporting")(Highcharts);
 // require("highcharts/modules/offline-exporting")(Highcharts);
 
