@@ -1,11 +1,3 @@
-var Highcharts = require('highcharts');
-require("highcharts/modules/accessibility")(Highcharts);
-// require("highcharts/modules/exporting")(Highcharts);
-// require("highcharts/modules/offline-exporting")(Highcharts);
-
-var title = "*set title*";
-var subtitle = "*data source*";
-
 export var data = [{}];
 
 export var chart = Highcharts.chart("somatoChart", {
@@ -15,11 +7,11 @@ export var chart = Highcharts.chart("somatoChart", {
     plotBackgroundImage: "/img/chart.svg",
   },
   title: {
-    text: `${title}`,
+    text: "Athletes by body type",
     align: "left",
   },
   subtitle: {
-    text: `Source: ${subtitle}`,
+    text: "Source: Data provided by User",
     align: "left",
   },
   xAxis: {

@@ -2,12 +2,13 @@
   "name": "chart-app",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/server.js",
   "scripts": {
-    "devStart": "nodemon src/index.js"
+    "devStart": "nodemon src/server.js"
   },
   "author": "janokularczyk",
   "dependencies": {
+    "ejs": "^3.1.9",
     "express": "^4.19.2",
     "highcharts": "^11.4.0"
   },
