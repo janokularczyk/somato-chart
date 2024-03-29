@@ -9,8 +9,7 @@
   "author": "janokularczyk",
   "dependencies": {
     "ejs": "^3.1.9",
-    "express": "^4.19.2",
-    "highcharts": "^11.4.0"
+    "express": "^4.19.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
