@@ -2,9 +2,9 @@
   "name": "chart-app",
   "version": "1.0.0",
   "description": "",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
-    "devStart": "nodemon src/server.js"
+    "devStart": "nodemon server.js"
   },
   "author": "janokularczyk",
   "dependencies": {
