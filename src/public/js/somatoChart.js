@@ -1,6 +1,6 @@
 export var data = [{}];
 
-export var chart = Highcharts.chart("somatoChart", {
+export var somatoChart = Highcharts.chart("somatoChart", {
   chart: {
     type: "scatter",
     renderTo: "somatoChart",

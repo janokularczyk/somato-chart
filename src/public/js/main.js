@@ -1,5 +1,5 @@
 import { Athlete } from "./athlete.js";
-import { chart, data } from "./chart.js";
+import { somatoChart, data } from "./somatoChart.js";
 
 document.getElementById("add").onclick = function () {
   var athlete = new Athlete(
@@ -26,11 +26,11 @@ document.getElementById("add").onclick = function () {
   for (var i = 0; i < elements.length; i++) {
     elements[i].value = "";
   }
-  chart.addSeries({ data: data });
+  somatoChart.addSeries({ data: data });
 };
 
 document.getElementById("undo").onclick = function () {
   data.pop();
 
-  chart.series[chart.series.length - 1].remove();
+  somatoChart.series[somatoChart.series.length - 1].remove();
 };
