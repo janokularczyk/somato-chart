@@ -1,7 +1,7 @@
-const chart = (req, res) => {
-  res.render("chart");
+const index = (req, res) => {
+  res.render("index");
 };
 
 module.exports = {
-  chart,
+  index,
 };

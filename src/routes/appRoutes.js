@@ -1,10 +1,10 @@
 const express = require("express");
-const { chart } = require("../controllers/appController.js");
+const { index } = require("../controllers/appController.js");
 
-const router = express.Router()
+const router = express.Router();
 
-router.get("/", chart);
+router.get("/", index);
 
 module.exports = {
-    routes: router
-}
+  routes: router,
+};

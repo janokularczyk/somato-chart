@@ -9,7 +9,7 @@ document.getElementById("add").onclick = function () {
     document.getElementById("ecto").value
   );
 
-  var seriesSymbol = document.getElementById("seriesSymbols").value;
+  var seriesSymbol = document.getElementById("seriesSymbol").value;
   var seriesColor = document.getElementById("seriesColor").value;
 
   data.push({
