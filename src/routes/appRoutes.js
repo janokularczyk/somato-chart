@@ -3,7 +3,7 @@ const { index } = require("../controllers/appController.js");
 
 const router = express.Router();
 
-router.get("/", index);
+router.route("/").get(index);
 
 module.exports = {
   routes: router,
