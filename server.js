@@ -12,5 +12,5 @@ app.use(express.static(path.join(__dirname, "/src/public")));
 app.use(appRouter.routes);
 
 app.listen(PORT, () => {
-  console.log(`Server is running`);
+  console.log("Server is running");
 });
