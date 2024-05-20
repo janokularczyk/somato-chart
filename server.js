@@ -8,6 +8,7 @@ const app = express();
 app.set("view engine", "ejs");
 app.set("views", "./src/views");
 
+app.use('/node_modules', express.static(path.join(__dirname, 'node_modules')));
 app.use(express.static(path.join(__dirname, "/src/public")));
 app.use(appRouter.routes);
 
